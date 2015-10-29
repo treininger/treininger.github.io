@@ -1,27 +1,35 @@
 /*Global*/
-
-
+/*<<<<<<< HEAD*/
 
 body {
     background: url(../img/tweed.png);
 }
 
-img { 
-    opacity: 1;
+img,
+.me { 
     width:  50%;
 }
 
 /*Layout*/
 
+
 /*Typography*/
-h1 {
+h1,
+h2,
+h3,
+p,
+li
+ {
     color: rgba(0,0,0,.5);
    font-family: 'Dosis', sans-serif;
 }
 
+
+
 /*Navigation*/
 
-a {
+nav a   {
+    color: cadetblue;
     background: coral;
     text-decoration: none;
     
@@ -29,6 +37,8 @@ a {
     height: 100px;
     width: 100px;
 }
+
+
 
 li {
     display: inline;
