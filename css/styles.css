@@ -43,3 +43,11 @@ nav a   {
 li {
     display: inline;
 }
+
+/* Gallery */
+.gallery {
+    height: 600px;
+}
+
+.gallery .item {
+    background: none;
