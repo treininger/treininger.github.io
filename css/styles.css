@@ -2,7 +2,27 @@
 /*<<<<<<< HEAD*/
 
 body {
-    background: url(../img/tweed.png);
+    background: url(../img/satinweave.png)        
+}
+
+/*Navigation*/
+
+nav li {
+    display: inline-block;
+    margin: 4px;
+    padding: 1em;
+    border-radius: .5em;
+    background: rgb(6, 140, 189);
+}
+
+nav a {
+  font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover, {
+    
 }
 
 /*
@@ -14,42 +34,93 @@ img,
 
 /*Layout*/
 
+.index {
+    background: url(../img/Tessa_31.jpg) no-repeat center center fixed;
+    background-size: 100% 100%; 
+       
+}
+
+ .resume div {
+     background: rgba(139, 85, 66, .2);
+    padding: 1em;
+    border-radius: .5em;
+}
+
+.resume nav {
+text-align: left;
+}
 
 /*Typography*/
-h1,
-h2,
-h3,
-p,
-li
- {
-    color: rgba(0,0,0,.5);
-   font-family: 'Dosis', sans-serif;
-}
 
-
-
-/*Navigation*/
-
-nav a   {
-    color: cadetblue;
-    background: coral;
-    text-decoration: none;
-    
+.tcom {
+   font-family: 'Shadows Into Light Two', cursive;
+    color: white;
+    Padding: .01em 2em .01em 2em;
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    background: rgb(6, 140, 189);
+    border-radius: .3em;
+    margin-top: 2em;
+}
+
+.resume h1, h3 {
+    font-family: 'Dosis', sans-serif;
+    color: rgb(6, 140, 189);
+    margin: auto;
+}
+
+.resume h2 {
+       font-family: 'Shadows Into Light Two', cursive;
+    color: rgb(216, 155, 36);
+}
+
+.resume li {
+ list-style-type: none;
+    color: rgb(216, 155, 36);
+}
+
+
+.item {
+    padding-left: 0;
+    display: inline-block;
+}
+    
+
+
+p, li {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
 
-li {
-    display: inline;
+
+
+
+/* Index */
+
+.index-text {
+    background: rgba(139, 85, 66, .6);
+    margin: 7rem;
+    padding: 2em;
+    border-radius: .5em;
+    position: relative;
 }
+
+.tcom {
+    position: absolute;
+    z-index: 1;
+    margin-left: 2em;
+}
+
+/* Resume */
+
+
 
 /* Gallery */
 .gallery {
     height: 600px;
 }
 
-.gallery .item {
-    background: none;
+#gallery .item {
+    background: rgb(139, 85, 66);
+}
