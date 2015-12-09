@@ -8,6 +8,8 @@ body {
 
 /*Navigation*/
 
+
+
 nav li {
     display: inline-block;
     margin: 4px;
@@ -20,6 +22,8 @@ nav a {
   font-family: 'Dosis', sans-serif;
     text-decoration: none;
     color: rgb(241, 243, 241);
+    display: block;
+    text-align: center;
 }
 
 nav a:hover, nav a:focus {
@@ -55,6 +59,12 @@ nav a:hover, nav a:focus {
     margin-left: 2em;
 }
 
+h2 {
+font-family: 'Shadows Into Light Two';
+    color: rgb(241, 243, 241);
+    font-size: 2.5em;
+}
+
 .resume h1, h3 {
     font-family: 'Dosis', sans-serif;
     color: darkgray;
@@ -88,7 +98,6 @@ p, li {
 
 
 
-
 /* Index */
 
 .index-text {
@@ -96,35 +105,39 @@ p, li {
     margin: 4em 54em 20em 5em;
     padding: 2em;
     border-radius: .5em;
-    position: relative;
+    position: relative
 }
 
 
 form {
  background: rgba(6, 140, 189, .8); 
-border: .5em solid lightgray;
+border: .5em solid rgb(216, 155, 36);
 border-radius: 1%;
 margin: 8em;
     padding: 3em;
 }
 
  label {
-        color: brown;
+        color: rgb(216, 155, 36);
         margin: auto;
         padding: 5em;
         font-family: 'Dosis', sans-serif;
+        font-size: 1.5em;
     }
 
 input  {
     margin: 1.1em;
     border-radius: .3em;
     background: rgb(241, 243, 241);
+    height: 3em;
+    width: 55%
 }
 
 textarea {
-    margin: .3em 0em .3em;
+    margin: .5em 10em .5em -.5em;
     border-radius: .3em;
     background:rgb(241, 243, 241);
+    width: 44%
 }
 
 input, textarea {
@@ -133,9 +146,11 @@ input, textarea {
 
 .submit {
     background: gray;
+    border-radius: .5em;
     color: rgb(241, 243, 241);
     padding: .8em;
     margin: 2em 0em 0em 30em;
+    width: auto;
 }
 
 /* Resume */
@@ -147,12 +162,6 @@ input, textarea {
     box-shadow: 10px 10px 10px #000;
 
 /* Gallery */
-.gallery {
-    height: 600px;
-}
 
-#gallery .item {
-    background: rgb(139, 85, 66);
-}
     
    
