@@ -46,6 +46,7 @@ nav a:hover, nav a:focus {
 
 /*Typography*/
 
+
 .tcom {
    font-family: 'Shadows Into Light Two', cursive;
     color: rgb(241, 243, 241);
@@ -160,8 +161,29 @@ input, textarea {
     border: 3px solid rgb(189, 123, 40);
     border-radius: 2%;
     box-shadow: 10px 10px 10px #000;
+    
+}
 
 /* Gallery */
 
+figure {
+        margin: 500px 500px 500px -100px; 
+        padding: 5px 200px 200px 200px;
+    }
+
+
+.portfolio h1 { 
+ font-family: 'Dosis', sans-serif;
+    color: rgb(241, 243, 241);
+    text-align: center;
+}
+
+.portfolio .big {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     
+}
+
+
    
