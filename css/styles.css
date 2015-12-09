@@ -19,11 +19,11 @@ nav li {
 nav a {
   font-family: 'Dosis', sans-serif;
     text-decoration: none;
-    color: white;
+    color: rgb(241, 243, 241);
 }
 
 nav a:hover, nav a:focus {
-    color: darkgray;
+    color: rgb(216, 155, 36);
 }
 
 /*Layout*/
@@ -44,7 +44,7 @@ nav a:hover, nav a:focus {
 
 .tcom {
    font-family: 'Shadows Into Light Two', cursive;
-    color: white;
+    color: rgb(241, 243, 241);
     Padding: .01em 2em .01em 2em;
     display: inline-block;
     background: rgb(6, 140, 189);
@@ -80,7 +80,7 @@ nav a:hover, nav a:focus {
 
 
 p, li {
-    color: white;
+    color: rgb(241, 243, 241);
     font-family: 'Open Sans', sans-serif;
 }
 
