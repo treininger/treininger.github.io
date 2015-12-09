@@ -100,6 +100,43 @@ p, li {
 }
 
 
+form {
+ background: rgba(6, 140, 189, .8); 
+border: .5em solid lightgray;
+border-radius: 1%;
+margin: 8em;
+    padding: 3em;
+}
+
+ label {
+        color: brown;
+        margin: auto;
+        padding: 5em;
+        font-family: 'Dosis', sans-serif;
+    }
+
+input  {
+    margin: 1.1em;
+    border-radius: .3em;
+    background: rgb(241, 243, 241);
+}
+
+textarea {
+    margin: .3em 0em .3em;
+    border-radius: .3em;
+    background:rgb(241, 243, 241);
+}
+
+input, textarea {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.submit {
+    background: gray;
+    color: rgb(241, 243, 241);
+    padding: .8em;
+    margin: 2em 0em 0em 30em;
+}
 
 /* Resume */
 
@@ -117,3 +154,5 @@ p, li {
 #gallery .item {
     background: rgb(139, 85, 66);
 }
+    
+   
