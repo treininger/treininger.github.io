@@ -2,8 +2,9 @@
 /*<<<<<<< HEAD*/
 
 body {
-    background: url(../img/satinweave.png)        
+    background: url(../img/dark_wood.png);
 }
+
 
 /*Navigation*/
 
@@ -25,31 +26,19 @@ nav a:hover, nav a:focus {
     color: darkgray;
 }
 
-/*
-img,
-.me { 
-    width:  50%;
-}
-*/
-
 /*Layout*/
 
 .index {
-    background: url(../img/Tessa_312.jpg) no-repeat center center fixed;
+    background: url(../img/Tessa_312.jpg) no-repeat center center fixed, url(../img/dark_wood.png);
     background-position-y: 8.6em; 
     background-color: rgb(241, 243, 241);
        
 }
 
- .resume div {
-     background: rgba(139, 85, 66, .2);
-    padding: 1em;
-    border-radius: .5em;
-}
 
-.resume nav {
-text-align: left;
-}
+
+
+
 
 /*Typography*/
 
@@ -61,26 +50,29 @@ text-align: left;
     background: rgb(6, 140, 189);
     border-radius: .3em;
     margin-top: 1em;
+    position: absolute;
+    z-index: 1;
+    margin-left: 2em;
 }
 
 .resume h1, h3 {
     font-family: 'Dosis', sans-serif;
-    color: rgb(6, 140, 189);
-    margin: auto;
+    color: darkgray;
+    margin: 1em;
 }
 
 .resume h2 {
        font-family: 'Shadows Into Light Two', cursive;
-    color: rgb(216, 155, 36);
+    color: rgb(6, 140, 189);
 }
 
 .resume li {
  list-style-type: none;
-    color: rgb(216, 155, 36);
+    color: rgb(6, 140, 189);
 }
 
 
-.item {
+.resume-text {
     padding-left: 0;
     display: inline-block;
 }
@@ -107,11 +99,7 @@ p, li {
     position: relative;
 }
 
-.tcom {
-    position: absolute;
-    z-index: 1;
-    margin-left: 2em;
-}
+
 
 /* Resume */
 
