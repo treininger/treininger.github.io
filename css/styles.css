@@ -119,7 +119,7 @@ p, li {
 
 form {
  background: rgba(6, 140, 189, .8); 
-border: .5em solid rgb(216, 155, 36);
+border: .5em solid rgba(139, 85, 66, .9);
 border-radius: 1%;
 margin: 8em;
     padding: 3em;
