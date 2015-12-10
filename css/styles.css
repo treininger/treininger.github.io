@@ -94,6 +94,10 @@ p, li {
     font-family: 'Open Sans', sans-serif;
 }
 
+.essay1 h1 {
+    font-family: 'Dosis',sans-serif;
+    color: rgb(6, 140, 189);
+    text-align: center;
 
 
 
@@ -187,6 +191,13 @@ figure {
     display: block;
     
 }
+
+.gallery .item {
+height: 5%; 
+background: black;
+}
+
+
 
 
 /*Media Queries*/
