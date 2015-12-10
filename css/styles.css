@@ -153,7 +153,7 @@ input, textarea {
 }
 
 .submit {
-    background: gray;
+    background: rgb(189, 123, 40);
     border-radius: .5em;
     color: rgb(241, 243, 241);
     padding: .8em;
@@ -197,6 +197,18 @@ height: 5%;
 background: black;
 }
 
+.work a:link {
+    color: rgb(216, 155, 36);
+    text-decoration: none;
+}
+
+.work a:visited, .work a:focus, .work a:active {
+    color: rgb(6, 140, 189);  
+}
+
+.work a:hover {
+ color: rgb(241, 243, 241);
+}
 
 
 
