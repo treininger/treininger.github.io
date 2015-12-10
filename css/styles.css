@@ -50,14 +50,13 @@ nav a:hover, nav a:focus {
 .tcom {
    font-family: 'Shadows Into Light Two', cursive;
     color: rgb(241, 243, 241);
-    Padding: .01em 2em .01em 2em;
+    padding: .01em 2em .01em 2em;
     display: inline-block;
     background: rgb(6, 140, 189);
     border-radius: .3em;
-    margin-top: 1em;
+    margin: 1em -3em;
     position: absolute;
     z-index: 1;
-    margin-left: 2em;
 }
 
 h2 {
@@ -103,10 +102,14 @@ p, li {
 
 .index-text {
     background: rgba(139, 85, 66, .6);
-    margin: 4em 54em 20em 5em;
+    margin: 5em 44em 20em 4em;
     padding: 2em;
     border-radius: .5em;
-    position: relative
+    position: relative;
+}
+
+ .index div {
+ min-width: 300px;   
 }
 
 
@@ -138,7 +141,7 @@ textarea {
     margin: .5em 10em .5em -.5em;
     border-radius: .3em;
     background:rgb(241, 243, 241);
-    width: 44%
+    width: 55%;
 }
 
 input, textarea {
@@ -185,5 +188,22 @@ figure {
     
 }
 
+
+/*Media Queries*/
+
+@media screen and (max-width: 1200px) {
+    body {
+        font-size: 18px;
+    }
+    
+    .tcom {
+        margin: 16px;
+        font-size: .8em;
+ }
+
+    
+
+    
+    
 
    
