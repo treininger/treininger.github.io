@@ -268,10 +268,15 @@ background: black;
         
     }
     
+    label {
+        padding: .8em
+    }
+    
     .submit {
         margin: auto;
         float: right;
     }
+    
 }
     
 
