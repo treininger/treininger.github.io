@@ -289,11 +289,11 @@ background: black;
     
 @media screen and (max-width: 320px) {
     .tcom {
-        font-size: 7px;
+        font-size: .4em;
     }
     
     .index-text {
-        font-size: 6px;   
+        font-size: .3em;   
     }
 }
 
