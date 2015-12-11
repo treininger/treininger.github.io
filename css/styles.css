@@ -125,7 +125,7 @@ margin: 8em;
 }
 
  label {
-        color: rgb(189, 123, 40);
+        color: rgb(241, 243, 241);
         margin: auto;
         padding: 5em;
         font-family: 'Dosis', sans-serif;
@@ -281,25 +281,31 @@ background: black;
     }
     
     .tcom {
-        font-size: .8em;     
+        font-size: .8em;   
     }
+    
+     nav li {
+        margin: auto;
+         
+    }
+    
+    index-text {
+        margin-left: -1em; 
+        
+    }
+    
     
 }
 
 
       
 @media screen and (max-width: 470px) {
-    .index-text {
-        font-size: 14px;
-    }
     
-    .tcom {
-        font-size: .5em;
-    }
     
     nav li {
         padding: .3em;
     }
+    
     
 }
     
