@@ -3,7 +3,6 @@ My Awesome Homepage
 
 <!-- Citations -->
 
-
 <!-- Website Background -->
 Name: Alvarado, Omar
 URL: http://subtlepatterns.com/dark-wood/
