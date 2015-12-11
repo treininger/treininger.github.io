@@ -1,9 +1,7 @@
 /*Global*/
 /*<<<<<<< HEAD*/
 
-body {
-    background: url(../img/dark_wood.png);
-}
+
 
 
 /*Navigation*/
@@ -32,6 +30,10 @@ nav a:hover, nav a:focus {
 
 /*Layout*/
 
+body {
+    background: url(../img/dark_wood.png);
+}
+
 .index {
     background: url(../img/Tessa_312.jpg) no-repeat center center fixed, url(../img/dark_wood.png);
     background-position-y: 8.6em; 
@@ -39,14 +41,14 @@ nav a:hover, nav a:focus {
        
 }
 
-
-
-
-
-
 /*Typography*/
 
+p, li {
+    color: rgb(241, 243, 241);
+    font-family: 'Open Sans', sans-serif;
+}
 
+    /*Header on Index Page*/
 .tcom {
    font-family: 'Shadows Into Light Two', cursive;
     color: rgb(241, 243, 241);
@@ -59,21 +61,28 @@ nav a:hover, nav a:focus {
     z-index: 1;
 }
 
+.index-text {
+    background: rgba(139, 85, 66, .6);
+    margin: 5em 44em 20em 4em;
+    padding: 2em;
+    border-radius: .5em;
+    position: relative;
+}
+
 h2 {
 font-family: 'Shadows Into Light Two', cursive;
     color: rgb(241, 243, 241);
     font-size: 2.5em;
 }
 
+.resume h2 {
+    color: rgb(6, 140, 189);
+}
+
 .resume h1, h3 {
     font-family: 'Dosis', sans-serif;
     color: rgb(189, 123, 40);
     margin: 1em;
-}
-
-.resume h2 {
-       font-family: 'Shadows Into Light Two', cursive;
-    color: rgb(6, 140, 189);
 }
 
 .resume li {
@@ -87,11 +96,10 @@ font-family: 'Shadows Into Light Two', cursive;
     display: inline-block;
 }
     
-
-
-p, li {
+.portfolio h1 { 
+ font-family: 'Dosis', sans-serif;
     color: rgb(241, 243, 241);
-    font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
 .essay h1 {
@@ -103,20 +111,11 @@ p, li {
 
 
 /* Index */
-
-.index-text {
-    background: rgba(139, 85, 66, .6);
-    margin: 5em 44em 20em 4em;
-    padding: 2em;
-    border-radius: .5em;
-    position: relative;
-}
-
  .index div {
  min-width: 300px;   
 }
 
-
+/* Contact Me */
 form {
  background: rgba(6, 140, 189, .8); 
 border: .5em solid rgba(216, 155, 36, .9);
@@ -157,7 +156,7 @@ input, textarea {
     border-radius: .5em;
     color: rgb(241, 243, 241);
     padding: .8em;
-    margin: 2em 0em 0em 30em;
+    margin: 2em 0 0 30em;
     width: auto;
 }
 
@@ -179,11 +178,7 @@ figure {
     }
 
 
-.portfolio h1 { 
- font-family: 'Dosis', sans-serif;
-    color: rgb(241, 243, 241);
-    text-align: center;
-}
+
 
 .portfolio .big {
     margin-left: auto;
@@ -222,10 +217,10 @@ background: black;
   }
     
     form {
-     width: 65%;  
+     width: 85%;  
     }
     textarea, input {
-     width: 30%;   
+     width: 50%;   
     }
     
 }
@@ -237,14 +232,14 @@ background: black;
     }
     
     form {
-     width: 65%;  
+     width: 80%;  
     }
     
    
     
 }
 
-@media screen and (max-width: 1195px) {
+@media screen and (max-width: 1210px) {
     body {
         font-size: 18px;
     }
@@ -255,35 +250,30 @@ background: black;
  
     }
     
-    textarea, input {
-        font-size: 7px;
-        width: 20%
+    .resume-text {
+        margin: 1em;
     }
     
-    label {
-        font-size: 16px  
-    }
-    
-    .form h2 {
-        font-size: 1.5em
-    }
-    
-    
-}
-    
-
-@media screen and (max-width: 755px) {
-    
-    textarea, input {
-    font-size: .1em;
-    margin-left: -40em;
+    form {
+        width: 80%;   
     }
     
     .form h2 {
-        font-size: 1em;
+        font-size: 2em;
     }
     
+    textarea, input {
+        font-size: .9em;
+            width: 90%
+        
+    }
+    
+    .submit {
+        margin: auto;
+        float: right;
+    }
 }
+    
 
 @media screen and (max-width: 640px) {
     body {
@@ -293,6 +283,10 @@ background: black;
     .tcom {
         font-size: .8em;     
     }
+    
+}
+
+
       
 @media screen and (max-width: 470px) {
     .index-text {
