@@ -27,3 +27,13 @@ URL: http://benschwarz.github.io/gallery-css/
 <!-- Code on grid.css  -->
 Name: Team TreeHouse
 URL: https://teamtreehouse.com/library/css-layout-techniques#grid-layout
+
+<!-- TypeFaces Used Throughout Website -->
+Name: Geswein, Kimberly
+URL: https://www.google.com/fonts/specimen/Shadows+Into+Light+Two
+
+Name: Impallari, Pablo
+URL: https://www.google.com/fonts/specimen/Dosis
+
+Name: Matteson, Steve
+URL: https://www.google.com/fonts/specimen/Open+Sans
