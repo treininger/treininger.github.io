@@ -60,7 +60,7 @@ nav a:hover, nav a:focus {
 }
 
 h2 {
-font-family: 'Shadows Into Light Two';
+font-family: 'Shadows Into Light Two', cursive;
     color: rgb(241, 243, 241);
     font-size: 2.5em;
 }
@@ -119,7 +119,7 @@ p, li {
 
 form {
  background: rgba(6, 140, 189, .8); 
-border: .5em solid rgba(216, 155, 36 , .9);
+border: .5em solid rgba(216, 155, 36, .9);
 border-radius: 1%;
 margin: 8em;
     padding: 3em;
@@ -202,11 +202,11 @@ background: black;
     text-decoration: none;
 }
 
-.work a:visited, .work a:focus, .work a:active {
+.work a:visited, .work a:active {
     color: rgb(6, 140, 189);  
 }
 
-.work a:hover {
+.work a:hover, .work a:focus {
  color: rgb(241, 243, 241);
 }
 
