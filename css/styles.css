@@ -214,7 +214,37 @@ background: black;
 
 /*Media Queries*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1555px) {
+    
+  label {
+
+    font-size: 25px;   
+  }
+    
+    form {
+     width: 65%;  
+    }
+    textarea, input {
+     width: 30%;   
+    }
+    
+}
+
+@media screen and (max-width: 1375px) {
+    
+    label {
+        font-size: 20px;
+    }
+    
+    form {
+     width: 65%;  
+    }
+    
+   
+    
+}
+
+@media screen and (max-width: 1195px) {
     body {
         font-size: 18px;
     }
@@ -222,7 +252,50 @@ background: black;
     .tcom {
         margin: 16px;
         font-size: .8em;
- }
+ 
+    }
+    
+    
+}
+    
+@media screen and (max-width: 640px) {
+    body {
+        font-size: 16px;   
+    }
+    
+    .tcom {
+        font-size: .8em;     
+    }
+    
+    
+}
+    
+@media screen and (max-width: 470px) {
+    .index-text {
+        font-size: 14px;
+    }
+    
+    .tcom {
+        font-size: .5em;
+    }
+    
+    nav li {
+        padding: .6em;
+    }
+    
+    
+    
+}
+    
+@media screen and (max-width: 320px) {
+    .tcom {
+        font-size: 7px;
+    }
+    
+    .index-text {
+        font-size: 6px;   
+    }
+}
 
     
 
