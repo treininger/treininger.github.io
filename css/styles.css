@@ -17,7 +17,7 @@ nav li {
 }
 
 nav a {
-  font-family: 'Dosis', sans-serif;
+    font-family: 'Dosis', sans-serif;
     text-decoration: none;
     color: rgb(241, 243, 241);
     display: block;
@@ -70,7 +70,7 @@ p, li {
 }
 
 h2 {
-font-family: 'Shadows Into Light Two', cursive;
+    font-family: 'Shadows Into Light Two', cursive;
     color: rgb(241, 243, 241);
     font-size: 2.5em;
 }
@@ -86,7 +86,7 @@ font-family: 'Shadows Into Light Two', cursive;
 }
 
 .resume li {
- list-style-type: none;
+    list-style-type: none;
     color: rgb(241, 243, 241);
 }
 
@@ -97,7 +97,7 @@ font-family: 'Shadows Into Light Two', cursive;
 }
     
 .portfolio h1 { 
- font-family: 'Dosis', sans-serif;
+    font-family: 'Dosis', sans-serif;
     color: rgb(241, 243, 241);
     text-align: center;
 }
@@ -112,24 +112,24 @@ font-family: 'Shadows Into Light Two', cursive;
 
 /* Index */
  .index div {
- min-width: 300px;   
+    min-width: 300px;   
 }
 
 /* Contact Me */
 form {
- background: rgba(6, 140, 189, .8); 
-border: .5em solid rgba(216, 155, 36, .9);
-border-radius: 1%;
-margin: 8em;
+    background: rgba(6, 140, 189, .8); 
+    border: .5em solid rgba(216, 155, 36, .9);
+    border-radius: 1%;
+    margin: 8em;
     padding: 3em;
 }
 
  label {
-        color: rgb(241, 243, 241);
-        margin: auto;
-        padding: 5em;
-        font-family: 'Dosis', sans-serif;
-        font-size: 1.8em;
+    color: rgb(241, 243, 241);
+    margin: auto;
+    padding: 5em;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.8em;
     }
 
 input  {
@@ -177,14 +177,10 @@ figure {
         padding: 5px 200px 200px 200px;
     }
 
-
-
-
 .portfolio .big {
     margin-left: auto;
     margin-right: auto;
-    display: block;
-    
+    display: block;  
 }
 
 .gallery .item {
@@ -212,18 +208,19 @@ background: black;
 @media screen and (max-width: 1555px) {
     
   label {
-
     font-size: 25px;   
   }
     
     form {
      width: 85%;  
     }
+    
     textarea, input {
      width: 50%;   
     }
     
 }
+
 
 @media screen and (max-width: 1375px) {
     
@@ -234,10 +231,8 @@ background: black;
     form {
      width: 80%;  
     }
-    
-   
-    
 }
+
 
 @media screen and (max-width: 1210px) {
     body {
@@ -247,8 +242,8 @@ background: black;
     .tcom {
         margin: 16px;
         font-size: .8em;
- 
     }
+    
     
     .resume-text {
         margin: 1em;
@@ -264,12 +259,11 @@ background: black;
     
     textarea, input {
         font-size: .9em;
-            width: 90%
-        
+            width: 90%;
     }
     
     label {
-        padding: .8em
+        padding: .8em;
     }
     
     .submit {
@@ -278,7 +272,7 @@ background: black;
     }
     
 }
-    
+     
 
 @media screen and (max-width: 640px) {
     body {
@@ -292,28 +286,44 @@ background: black;
      nav li {
         margin: auto;
          
-    }
-    
-    index-text {
-        margin-left: -1em; 
-        
-    }
-    
-    
+    }  
 }
-
 
       
 @media screen and (max-width: 470px) {
-    
-    
     nav li {
         padding: .3em;
     }
     
+    .tcom {
+     font-size: .7em;
+    margin-top: 50px
+    }
+       
+}
+
+     @media screen and (min-width: 480px) {
+    .index {
+        background-size: 100% 90% ; 
+    }
     
 }
+
+
+@media screen and (max-width: 400px) {
+    nav li {
+        padding: .3em;
+    }
     
+    .tcom {
+     font-size: .5em;
+    }
+    
+    .index {
+        background-position-y: 6em;
+    }
+}
+
 
 
     
