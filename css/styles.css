@@ -255,9 +255,36 @@ background: black;
  
     }
     
+    textarea, input {
+        font-size: 7px;
+        width: 20%
+    }
+    
+    label {
+        font-size: 16px  
+    }
+    
+    .form h2 {
+        font-size: 1.5em
+    }
+    
     
 }
     
+
+@media screen and (max-width: 755px) {
+    
+    textarea, input {
+    font-size: .1em;
+    margin-left: -40em;
+    }
+    
+    .form h2 {
+        font-size: 1em;
+    }
+    
+}
+
 @media screen and (max-width: 640px) {
     body {
         font-size: 16px;   
@@ -266,10 +293,7 @@ background: black;
     .tcom {
         font-size: .8em;     
     }
-    
-    
-}
-    
+      
 @media screen and (max-width: 470px) {
     .index-text {
         font-size: 14px;
