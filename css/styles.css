@@ -280,7 +280,7 @@ background: black;
     }
     
     nav li {
-        padding: .6em;
+        padding: .3em;
     }
     
     
@@ -288,12 +288,8 @@ background: black;
 }
     
 @media screen and (max-width: 320px) {
-    .tcom {
-        font-size: .4em;
-    }
-    
-    .index-text {
-        font-size: .3em;   
+    nav li {
+    padding: .1em
     }
 }
 
